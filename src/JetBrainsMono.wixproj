@@ -8,7 +8,7 @@
       <ComponentGroupName>FontComponents</ComponentGroupName>
       <DirectoryRefId>FontsFolder</DirectoryRefId>
       <SuppressRegistry>true</SuppressRegistry>
-      <SupressCom>true</SupressCom>
+      <SuppressCom>true</SuppressCom>
       <SuppressRootDirectory>true</SuppressRootDirectory>
       <PreprocessorVariable>var.FontsDirectory</PreprocessorVariable>
       <Transforms>TrueType.xsl</Transforms>
