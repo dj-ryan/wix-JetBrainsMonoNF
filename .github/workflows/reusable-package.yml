@@ -1,15 +1,22 @@
 name: Reusable package
 on:
   workflow_call:
+    outputs:
+      version:
+        description: Nerd Fonts version that was packaged
+        value: ${{ jobs.package.outputs.version }}
 jobs:
   package:
     runs-on: windows-latest
+    outputs:
+      version: ${{ steps.build.outputs.version }}
     steps:
       - uses: actions/checkout@v4
       - name: Install Pandoc
         shell: pwsh
         run: choco install pandoc
       - name: Build package
+        id: build
         shell: pwsh
         run: ./src/Build-Installer.ps1
         env:
