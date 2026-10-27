@@ -1,7 +1,7 @@
 <Wix xmlns="http://wixtoolset.org/schemas/v4/wxs"
   xmlns:ui="http://wixtoolset.org/schemas/v4/wxs/ui">
-  <Package Name="JetBrainsMono Nerd Font" Manufacturer="DEVCOM" Version="1.0.0.0"
-    UpgradeCode="c0958d9a-1772-4444-82fc-1149c850d6ae" Scope="perMachine">
+  <Package Name="JetBrainsMono Nerd Font" Manufacturer="dj-ryan" Version="1.0.0.0"
+    UpgradeCode="b652acc6-90df-4d1a-81bd-3390779bb2b6" Scope="perMachine">
     <MajorUpgrade DowngradeErrorMessage="!(loc.DowngradeError)" />
 
     <Feature Id="Main">

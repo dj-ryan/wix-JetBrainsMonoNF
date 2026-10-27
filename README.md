@@ -7,19 +7,19 @@ This installer is available on
 [winget](https://learn.microsoft.com/windows/package-manager/winget/):
 
 ```
-winget install --id DEVCOM.JetBrainsMonoNerdFont
+winget install --id DjRyan.JetBrainsMonoNerdFont
 ```
 
 ## Build prerequisites
 
-- [GitHub CLI](https://cli.github.com/)
 - [Pandoc](https://pandoc.org/)
+- [.NET SDK](https://dotnet.microsoft.com/download)
 
 Install them with the following commands:
 
 ```powershell
-winget install --id GitHub.cli
 winget install --id JohnMacFarlane.Pandoc
+winget install --id Microsoft.DotNet.SDK.10
 ```
 
 ## Build
